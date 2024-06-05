@@ -1,0 +1,662 @@
+{
+    "person_id": "093cc28c-307b-4737-a9c3-f6fd5d9c426b",
+    "name": "mijail",
+    "lastname": "osorio",
+    "create at": "",
+    "update at": "",
+    "rutine_id": "093cc28c-307b-4737-a9c3-f6fd5d9c426b",
+    "rutine": [
+      {
+        "day": "monday",
+        "ejercise": [
+          {
+            "index": 1,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 2,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 3,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 4,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 5,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 6,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 7,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 8,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          }
+        ]
+      },
+      {
+        "day": "tuesday",
+        "ejercise": [
+          {
+            "index": 1,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 2,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 3,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 4,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 5,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 6,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 7,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 8,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          }
+        ]
+      },
+      {
+        "day": "wednesday",
+        "ejercise": [
+          {
+            "index": 1,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 2,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 3,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 4,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 5,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 6,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 7,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 8,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          }
+        ]
+      },
+      {
+        "day": "thursday",
+        "ejercise": [
+          {
+            "index": 1,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 2,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 3,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 4,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 5,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 6,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 7,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 8,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          }
+        ]
+      },
+      {
+        "day": "friday",
+        "ejercise": [
+          {
+            "index": 1,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 2,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 3,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 4,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 5,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 6,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 7,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 8,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          }
+        ]
+      },
+      {
+        "day": "saturday",
+        "ejercise": [
+          {
+            "index": 1,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 2,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 3,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 4,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 5,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 6,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 7,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 8,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          }
+        ]
+      },
+      {
+        "day": "sunday",
+        "ejercise": [
+          {
+            "index": 1,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 2,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 3,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 4,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 5,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 6,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 7,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          },
+          {
+            "index": 8,
+            "name": "pecho",
+            "img": "aca un link",
+            "youtube": "link",
+            "repetcions": 12,
+            "series": 4,
+            "peso": 30,
+            "unidad": "lbs",
+            "peso_anterior": 25
+          }
+        ]
+      }
+    ],
+    "status": true
+  }

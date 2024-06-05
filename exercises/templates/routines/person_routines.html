@@ -1,0 +1,123 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Routines for {{ person.name }} {{ person.lastname }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a2540; /* Dark blue background */
+            color: #ffffff; /* White text */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #17d0db; /* Light blue color */
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #0a2540; /* Dark blue color */
+        }
+        h2, h3 {
+            color: #17d0db; /* Light blue color */
+            text-align: center;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #ffffff; /* White background for table */
+            color: #0a2540; /* Dark blue text for table */
+        }
+        table, th, td {
+            border: 1px solid #17d0db; /* Light blue border */
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #17d0db; /* Light blue header */
+            color: #ffffff; /* White text in header */
+        }
+        td img {
+            width: 300px;
+            height: 300px;
+            cursor: pointer;
+        }
+        /* Styles for the image popup */
+        .popup, .popup-video {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70%;
+            max-width: 800px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            z-index: 1000;
+        }
+        .popup img, .popup-video iframe {
+            width: 100%;
+            height: auto;
+        }
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 999;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #17d0db; /* Light blue color */
+            color: #0a2540; /* Dark blue color */
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="{% static 'images/1212.jpg' %}" alt="Company Logo">
+        <h1>Routines for {{ person.name }} {{ person.lastname }}</h1>
+    </header>
+
+    <ul>
+        {% for routine in routines %}
+            <li>
+                <h2><a href="{% url 'routine_detail' routine.id %}" style="color: #17d0db;">{{ routine.day }}</a></h2>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <footer>
+        &copy; 2024 Rubanfit. All rights reserved.
+    </footer>
+</body>
+</html>

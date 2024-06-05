@@ -1,0 +1,1 @@
+web: gunicorn urbanfitapp.wsgi --log-file -

@@ -1,0 +1,196 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Routine Details for {{ person.name }} {{ person.lastname }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a2540; /* Dark blue background */
+            color: #ffffff; /* White text */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #17d0db; /* Light blue color */
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #0a2540; /* Dark blue color */
+        }
+        h2, h3 {
+            color: #17d0db; /* Light blue color */
+            text-align: center;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #ffffff; /* White background for table */
+            color: #0a2540; /* Dark blue text for table */
+        }
+        table, th, td {
+            border: 1px solid #17d0db; /* Light blue border */
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #17d0db; /* Light blue header */
+            color: #ffffff; /* White text in header */
+        }
+        td img {
+            width: 300px;
+            height: 300px;
+            cursor: pointer;
+        }
+        /* Styles for the image popup */
+        .popup, .popup-video {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70%;
+            max-width: 800px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            z-index: 1000;
+        }
+        .popup img, .popup-video iframe {
+            width: 100%;
+            height: auto;
+        }
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 999;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #17d0db; /* Light blue color */
+            color: #0a2540; /* Dark blue color */
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="{% static 'images/1212.jpg' %}" alt="Company Logo">
+        <h1>Routine Details for {{ person.name }} {{ person.lastname }}</h1>
+    </header>
+
+    {% if routine %}
+        <h2>Routine for {{ routine.day }}</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Exercise Name</th>
+                    <th>Image</th>
+                    <th>Video</th>
+                    <th>Repetitions</th>
+                    <th>Series</th>
+                    <th>Peso</th>
+                    <th>Peso Anterior</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for exercise in exercises %}
+                    <tr>
+                        <td>{{ forloop.counter }}</td>
+                        <td><strong>{{ exercise.name }}</strong></td>
+                        <td><img src="{{ exercise.img }}" alt="{{ exercise.name }}" class="popup-trigger"></td>
+                        <td><a href="{{ exercise.youtube }}" class="video-trigger" data-video="{{ exercise.youtube }}">Video</a></td>
+                        <td>{{ exercise.repetitions }}</td>
+                        <td>{{ exercise.series }}</td>
+                        <td>{{ exercise.weight }} {{ exercise.unit }}</td>
+                        <td>{{ exercise.previous_weight }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <h2>No routine available for today.</h2>
+    {% endif %}
+
+    <!-- Popup Overlay -->
+    <div class="popup-overlay" id="popup-overlay"></div>
+
+    <!-- Image Popup Content -->
+    <div class="popup" id="popup">
+        <img id="popup-img" src="" alt="Popup Image">
+    </div>
+
+    <!-- Video Popup Content -->
+    <div class="popup-video" id="popup-video">
+        <iframe id="popup-video-iframe" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        &copy; 2024 Urbanfit. All rights reserved.
+    </footer>
+
+    <script>
+        // Get all elements with class "popup-trigger"
+        const popupTriggers = document.querySelectorAll('.popup-trigger');
+        const popup = document.getElementById('popup');
+        const popupImg = document.getElementById('popup-img');
+        const popupOverlay = document.getElementById('popup-overlay');
+
+        // Add click event to each trigger
+        popupTriggers.forEach(trigger => {
+            trigger.addEventListener('click', () => {
+                popupImg.src = trigger.src;
+                popup.style.display = 'block';
+                popupOverlay.style.display = 'block';
+            });
+        });
+
+        // Hide popup when overlay is clicked
+        popupOverlay.addEventListener('click', () => {
+            popup.style.display = 'none';
+            popupOverlay.style.display = 'none';
+            popupVideo.style.display = 'none';
+            popupVideoIframe.src = ''; // Stop the video
+        });
+
+        // Video popup
+        const videoTriggers = document.querySelectorAll('.video-trigger');
+        const popupVideo = document.getElementById('popup-video');
+        const popupVideoIframe = document.getElementById('popup-video-iframe');
+
+        videoTriggers.forEach(trigger => {
+            trigger.addEventListener('click', (event) => {
+                event.preventDefault();
+                const videoSrc = trigger.getAttribute('data-video');
+                popupVideoIframe.src = videoSrc;
+                popupVideo.style.display = 'block';
+                popupOverlay.style.display = 'block';
+            });
+        });
+    </script>
+</body>
+</html>
